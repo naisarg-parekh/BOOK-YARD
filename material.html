@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MATERIAL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="icon" type="image/png" href="fevicon_image.png">
+</head>
+<body>
+  <section class="firstSection">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="mainpage.html">‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎Home</a>
+        <a href="mainpage.html#service">Services</a>
+        <a href="mainpage.html#contact">Contact Us</a>
+        <br><br><br><br>
+        <br><br><br><br>
+        
+               <div class="logform">     
+                      <form action="login.php" method="post">
+                        <h2><u>LOGIN</u></h2>
+                        <label>User Name</label>
+                        <input type="text" name="uname" placeholder="User Name" required><br>
+
+                        <label>Password</label>
+                        <input type="password" name="password" placeholder="Password" required ><br>
+
+                        <button type="submit">Login</button>
+                       </form>
+               </div>
+
+      </div>
+       
+       <div id="main">
+        <h2></h2>
+         <p></p>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </div> 
+
+
+       
+
+      
+    <header role="banner">
+    
+      <nav class="nav" role="navigation">
+
+      <ul class="nav__list">
+
+        <div class="container">
+          
+          <br><br>
+          <div id="title" class="center">
+             
+             <div class="row">
+              <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+                <input id="searchh-box" type="text" class="form-control" placeholder="Search Books Online..." required>
+                <button id="searchh" class="btn btn-primary" onclick="myFunction()" >Search</button>
+              </div>
+             </div>
+          </div>
+          <div class="book-list" >
+            
+             <div id="list-output" class="list-output">
+
+             </div>
+          </div>
+        </div> 
+          <li>
+            <input id="group-1" type="checkbox" hidden />
+            <label for="group-1"><span class="fa fa-angle-right"></span> SEM-1</label>
+            <ul class=group-list>
+              <!-- <li><a href="#">1st level item</a></li> -->
+
+              <li>
+                <input id="sub-group-1" type="checkbox" hidden />
+                <label for="sub-group-1" id="sub-group-1" ><span class="fa fa-angle-right"></span> BEEE</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem1/beee/beee_notes1.pdf" download>beee_notes1.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp1,2.pdf">beee_chp1,2.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp3.pdf">beee_chp3.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp4.pdf">beee_chp4.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp5.pdf">beee_chp5.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp6.pdf">beee_chp6.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee_chp7.pdf">beee_chp7.pdf</a></li>
+                  <li><a href="notes/sem1/beee/beee-chp8.pdf">beee-chp8.pdf</a></li>
+                  <li><a href="notes/sem1/beee/electrostatics.pdf">electrostatics.pdf</a></li>
+                  <li><a href="notes/sem1/beee/b-l-theraja-volume-1.pdf">b-l-theraja-volume-1.pdf</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-2" type="checkbox" hidden />
+                <label for="sub-group-2" id="sub-group-2"><span class="fa fa-angle-right"></span>ENVIRONMENT</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem1/env/Ch 1 Introduction to Environment.pdf">Introduction to Environment.pdf</a></li>
+                  <li><a href="notes/sem1/env/Ch 2 Air Pollution.pdf">Ch 2 Air Pollution.pdf</a></li>
+                  <li><a href="notes/sem1/env/CL 142 ES 18-12-2017.pptx">emCL 142 ES 18-12-2017.ppt</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-3" type="checkbox" hidden />
+                <label for="sub-group-3"><span class="fa fa-angle-right"></span> CCP</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem1/ccp/chapter - 1.ppt">chapter - 1.ppt</a></li>
+                      <li><a href="notes/sem1/ccp/chapter - 2.ppt">chapter - 2.ppt</a></li>
+                      <li><a href="notes/sem1/ccp/chapter - 4.ppt">chapter - 4.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 5.ppt">chapter - 5.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 6.ppt">chapter - 6.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 7.pptx">chapter - 7.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 8.ppt">chapter - 8.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter-10.pptx">chapter - 10.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 11.ppt">chapter - 11.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 12.pptx">chapter - 12.ppt</a></li>
+                  <li><a href="notes/sem1/ccp/chapter - 13.ppt">chapter - 13</a></li>
+                  <li><a href="notes/sem1/ccp/chapter-14.pptx">chapter - 14.ppt</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-4" type="checkbox" hidden />
+                <label for="sub-group-4"><span class="fa fa-angle-right"></span> MATHS</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem1/maths/_Grewal_B._S.__Higher_engineering_mathematics(BookZZ.org).PDF">_Grewal_B._S.__Higher_engineering_mathematics(BookZZ.org).pdf</a></li>
+                  <li><a href="notes/sem1/maths/Advanced.Engineering.Mathematics.10th.Edition.BD.pdf">Advanced.Engineering.Mathematics.10th.Edition.BD.pdf</a></li>
+                  <li><a href="notes/sem1/maths/H. K. Dass-Higher Engineering Mathematics-S Chand & Co Ltd (2014).pdf">H. K. Dass-Higher Engineering Mathematics-S Chand & Co Ltd (2014).pdf</a></li>
+                  <li><a href="notes/sem1/maths/Infinite Series By Rajendra Chauhan.pdf">Infinite Series By Rajendra Chauhan.pdf</a></li>
+                  <li><a href="notes/sem1/maths/limits_and_derivatives_formulas.pdf">limits_and_derivatives_formulas.pdf</a></li>
+                  <li><a href="notes/sem1/maths/linear algebra.pdf">linear algebra.pdf</a></li>
+                  <li><a href="notes/sem1/maths/MA141.pdf">MA141.pdf</a></li>
+                  <li><a href="notes/sem1/maths/Vetor algebra.pdf">Vetor algebra.pdf</a></li>
+                  
+
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-5" type="checkbox" hidden />
+                <label for="sub-group-5"><span class="fa fa-angle-right"></span> ICT</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem1/ict/chapter1.pdf">chapter1.pdf</a></li>
+                  <li><a href="notes/sem1/ict/chapter2.pdf">chapter2.pdf</a></li>
+                  <li><a href="notes/sem1/ict/chapter 3.ppt">chapter 3.ppt</a></li>
+                  <li><a href="notes/sem1/ict/chapter 4.ppt">chapter 4.ppt</a></li>
+                  <li><a href="notes/sem1/ict/chapter-5.ppt">chapter 5.ppt</a></li>
+                  <li><a href="notes/sem1/ict/chapter-6.pdf">chapter 6.pdf</a></li>
+                  <li><a href="notes/sem1/ict/chapter-8.ppt">chapter 8.ppt</a></li>
+                  <li><a href="notes/sem1/ict/typesofoperatingsystem-150301115419-conversion-gate01.pdf">typesofoperatingsystem.pdf</a></li>
+                 
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-2" type="checkbox" hidden />
+            <label for="group-2"><span class="fa fa-angle-right"></span> SEM-2</label>
+            <ul class=group-list>
+              <!-- <li><a href="#">1st level item</a></li> -->
+              <li>
+                <input id="sub-group-6" type="checkbox" hidden />
+                <label for="sub-group-6"><span class="fa fa-angle-right"></span> C++</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem2/c++/e_balagurusamy-object_oriented_programming_with_c++.pdf">e_balagurusamy-object_oriented_programming.pdf</a></li>
+                  <li><a href="notes/sem2/c++/ObjectOrientedProgramminginC4thEdition.pdf">ObjectOrientedProgramminginC4thEdition.pdf</a></li>
+                  <li><a href="notes/sem2/c++/Mayuri File management in c++.pdf">Mayuri File management in c++.pdf</a></li>
+                  <li><a href="notes/sem2/c++/Unit 1 & 2- Introduction to Object Oriented Concept and Design & Principles of Object Oriented Programming.ppt">Chapter-1 & 2.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Unit 3 -  Introduction to C++.ppt">Chapter-3 .ppt</a></li>
+                  <li><a href="notes/sem2/c++/UNIT 4 - Tokens and Expressions & Control Structure.pPT">Chapter-4.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Chapter-5.ppt">Chapter-5.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Chapter-6.ppt">Chapter-6.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Unit-7 Constructor & Destructors.ppt">Chapter-7.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Unit-8 Operator Overloading final.ppt">Chapter-8.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Unit- 9 Inheritance RPP.ppt">Chapter-9.ppt</a></li>
+                  <li><a href="notes/sem2/c++/Unit 10 by RPP.ppt">Chapter-10.ppt</a></li>
+                  <li><a href="notes/sem2/c++/filehandling.pdf">filehandling.pdf</a></li>
+                  <li><a href="notes/sem2/c++/Unit 12.pdf">Chapter-12.pdf</a></li>
+                  
+              
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-7" type="checkbox" hidden />
+                <label for="sub-group-7"><span class="fa fa-angle-right"></span> EE</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem2/ee/Introduction_EOE-BCME.ppt">Introduction_EOE-BCME.ppt</a></li>
+                  <li><a href="notes/sem2/ee/projection of solids.ppt">projection of solids.ppt</a></li>
+                  <li><a href="notes/sem2/ee/Unit 2.pdf">Unit 2.pdf</a></li>
+                  <li><a href="notes/sem2/ee/Unit 2_EE.ppt">Unit 2_EE.ppt</a></li>
+                  <li><a href="notes/sem2/ee/UNIT 3 EE_ PMS updated.pdf">UNIT 3 EE_ PMS updated.pdf</a></li>
+                  <li><a href="notes/sem2/ee/UNIT 3_EE (1).ppt">UNIT 3_EE (1).ppt</a></li>
+                  <li><a href="notes/sem2/ee/2 ME144 Unit 2.pptx">2 ME144 Unit 2.ppt</a></li>
+                  <li><a href="notes/sem2/ee/ME144 PPT 1.pdf">ME144 PPT 1.pdf</a></li>
+                  <li><a href="notes/sem2/ee/Plain and diagonal scale.ppt">Plain and diagonal scale.ppt</a></li>
+                  <li><a href="notes/sem2/ee/ELEMENTS OF ENGINEERING.pdf">ELEMENTS OF ENGINEERING ME144.pdf</a></li>
+                  <li><a href="notes/sem2/ee/Internal Combustion Engines.ppt">Internal Combustion Engines.ppt</a></li>
+                  <li><a href="notes/sem2/ee/Refrigeration.ppt">Refrigeration.ppt</a></li>
+                  <li><a href="notes/sem2/ee/UNIT 12 civil engineering.pdf">UNIT 12 civil engineering.pdf</a></li>
+                  <li><a href="notes/sem2/ee/mechanical.pdf">mechanical.pdf</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-8" type="checkbox" hidden />
+                <label for="sub-group-8"><span class="fa fa-angle-right"></span>MATHEMATICS</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem2/maths/maths 2_20190213092750819.pdf">FirstOrder&firstDegree.pdf</a></li>
+                  <li><a href="notes/sem2/maths/2 higher order ordinary linear diff eq_20190412220544.pdf">Higher order ordinary linear diff eq.pdf</a></li>
+                  <li><a href="notes/sem2/maths/3 partial diff eq_20190412220407.pdf">Partial diff eq..pdf</a></li>
+                   <li><a href="notes/sem2/maths/Unit 3 Partial Differential Equation.pdf">Partial Differential Equation.pdf</a></li>
+                  <li><a href="notes/sem2/maths/improper and multiple integral.pdf">improper and multiple integral.pdf</a></li>
+                  <li><a href="notes/sem2/maths/interpolation and curve fitting.pdf">interpolation and curve fitting.pdf</a></li>
+                   <li><a href="notes/sem2/maths/cardiod -2.pdf">cardiod.pdf</a></li>
+                  
+                
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-9" type="checkbox" hidden />
+                <label for="sub-group-9"><span class="fa fa-angle-right"></span> PHYSICS</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem2/physics/Engineering Physics Manual.pdf">Engineering Physics Manual.pdf</a></li>
+                  <li><a href="notes/sem2/physics/_Error Analysis.pdf">_Error Analysis.pdf</a></li>
+                  <li><a href="notes/sem2/physics/4 FIBRE OPTICS (1).pdf">FIBRE OPTICS.pdf</a></li>
+                  <li><a href="notes/sem2/physics/4 Laser.pdf">Laser.pdf</a></li>
+                  <li><a href="notes/sem2/physics/regression analysis.pdf">regression analysis.pdf</a></li>
+                  <li><a href="notes/sem2/physics/Schrodinger's + .......pdf">Schrodinger's.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 2-Quantum Mechanics.pdf">Quantum Mechanics.pdf</a></li>
+                  <li><a href="notes/sem2/physics/Unit_3_Acoustics_and_Ultrasonics-1.pdf">Acoustics_and_Ultrasonics-1.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 5-1.pdf">chapter 5-1.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 5-2.pdf">chapter 5-2.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 5-3.pdf">chapter 5-3.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 5-3b.pdf">chapter 5-3b.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 5-4.pdf">chapter 5-4.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 6.pdf">chapter 6.pdf</a></li>
+                  <li><a href="notes/sem2/physics/unit 6 b.pdf">chapter 6 b.pdf</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-3" type="checkbox" hidden />
+            <label for="group-3"><span class="fa fa-angle-right"></span> SEM-3</label>
+            <ul class=group-list>
+              <li>
+                <input id="sub-group-10" type="checkbox" hidden />
+                <label for="sub-group-10" id="sub-group-1" ><span class="fa fa-angle-right"></span> DATA COMMUNICATION AND NETWORKING</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem3/dcn/DCN_chp1 intoduction.ppsx">DCN_chp1 intoduction.ppsx</a></li>
+                  <li><a href="notes/sem3/dcn/DCN_chp 2 network model.ppt">DCN_chp 2 network model.ppt</a></li>
+                  <li><a href="notes/sem3/dcn/DCN_chp 3 signal.pdf">DCN_chp 3 signal.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/chapter 4.pdf">chapter 4.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/DCN_chp8 data link control.pdf">DCN_chp8 data link control.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/3_IT243_DCOM.pdf">3_IT243_DCOM.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/Analog to analog.pdf">Analog to analog.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/Analog to Digital.pdf">Analog to Digital.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/digital to analog.pdf">digital to analog.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/ip addressing1.pdf">ip addressing1.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/Final_Routing.pdf">Final_Routing.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/Multiplexing.pdf">Multiplexing.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/routing algos.pdf">routing algos.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/chapter 2 notes.pdf">chapter 2 notes.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/transmission media.ppt">transmission media.ppt</a></li>
+                  <li><a href="notes/sem3/dcn/Windows_Networking_command.pdf">Windows_Networking_command.pdf</a></li>
+                  <li><a href="notes/sem3/dcn/Wired and Wireless LAN.pdf">Wired and Wireless LAN.pdf</a></li>
+
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-11" type="checkbox" hidden />
+                <label for="sub-group-11"><span class="fa fa-angle-right"></span> DISCRETE MATHEMATICS</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem3/maths/Abstract Algebra PPT_Meera.pdf">Abstract Abstract Algebra PPT_Meera.pdf</a></li>
+                  <li><a href="notes/sem3/maths/Discrete Mathematics and Its Applications by Rosen K. (z-lib.org).pdf">Discrete Mathematics and Its Applications.pdf</a></li>
+                  <li><a href="notes/sem3/maths/Graph theory.ppt">Graph theory.ppt</a></li>
+                  <li><a href="notes/sem3/maths/maths text book.pdf">maths text book.pdf</a></li>
+                  <li><a href="notes/sem3/maths/meera mam.pdf">meera mam.pdf</a></li>
+                  <li><a href="notes/sem3/maths/Predicate Calculus.pptx">predicate calculus .ppt</a></li>
+                  <li><a href="notes/sem3/maths/Relation.ppt">Predicate Calculus.ppt</a></li>
+                  <li><a href="notes/sem3/maths/Recurrence_Relation_presentation_MEERA.pdf">Recurrence_Relation_presentation_MEERA.pdf</a></li>
+                  <li><a href="notes/sem3/maths/Unit 1 Rule of inference.pdf">Unit 1 Rule of inference.pdf</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-12" type="checkbox" hidden />
+                <label for="sub-group-12"><span class="fa fa-angle-right"></span> DIGITAL ELECTRONICS</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem3/de/book.pdf">digital design_BOOK.pdf</a></li>
+                  <li><a href="notes/sem3/de/Chapter 1.ppt">Chapter 1.ppt</a></li>
+                  <li><a href="notes/sem3/de/Chapter2 (1).pptx">Chapter 2.pptx</a></li>
+                  <li><a href="notes/sem3/de/Chapter 3.pdf">Chapter 3.pdf</a></li>
+                  <li><a href="notes/sem3/de/Chapter 4.pptx">Chapter 4.pptx</a></li>
+                  <li><a href="notes/sem3/de/Chapter 5.ppt">Chapter 5.ppt</a></li>
+                  <li><a href="notes/sem3/de/Chapter 6.pptx">Chapter 6.pptx</a></li>
+                  <li><a href="notes/sem3/de/Chapter 7.ppt">Chapter 7.ppt</a></li>
+                  <li><a href="notes/sem3/de/Digital electronics ch1 handbook.pdf">Digital electronics ch1 handbook.pdf</a></li>
+                  <li><a href="notes/sem3/de/Handnotes- universal-gate_CC.pdf">Handnotes- universal-gate_CC.pdf</a></li>
+                  <li><a href="notes/sem3/de/kmap_sop.pdf">kmap_sop.pdf</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-13" type="checkbox" hidden />
+                <label for="sub-group-13"><span class="fa fa-angle-right"></span> JAVA PROGRAMMING</label>
+                <ul class="sub-group-list">
+                  <li><a href="notes/sem3/java/Java BOOK.pdf">Java BOOK.pdf</a></li>
+                  <li><a href="notes/sem3/java/Java Programming Exercise">Java Programming Exercise.pdf</a></li>
+                  <li><a href="notes/sem3/java/LEC_01_Java Introduction - Copy.pptx">LEC_01_Java Introduction - Copy.pptx</a></li>
+                  <li><a href="notes/sem3/java/LEC_01_JavaBasics.pdf">LEC_01_JavaBasics.pdf</a></li>
+                  <li><a href="notes/sem3/java/LEC_02_Types of Method in Java (1).pptx">LEC_02_Types of Method in Java (1).pptx</a></li>
+                  <li><a href="notes/sem3/java/LEC_03_Java Constructor.pptx">LEC_03_Java Constructor.pptx</a></li>
+                  <li><a href="notes/sem3/java/LEC_04_Java Blocks.pptx">LEC_04_Java Blocks.pptx</a></li>
+                  <li><a href="notes/sem3/java/LEC_09_Java Exception.pptx">LEC_09_Java Exception.pptx</a></li>
+                  <li><a href="notes/sem3/java/LEC_13_Java Multithreading.pptx">LEC_13_Java Multithreading.pptx</a></li>
+                  <li><a href="notes/sem3/java/Array&String-Class.pdf">Array&String-Class.pdf</a></li>
+                  <li><a href="notes/sem3/java/LEC_OOPs Abstration_Interface.pdf">LEC_OOPs Abstration_Interface.pdf</a></li>
+                  <li><a href="notes/sem3/java/Packages.pptx">Packages.pptx</a></li>
+                  <li><a href="notes/sem3/java/Static.pdf">Static.pdf</a></li>
+                  <li><a href="notes/sem3/java/Assigning object reference variables.pdf">Assigning object reference variables.pdf</a></li>
+                  <li><a href="notes/sem3/java/using-final-with-inheritance.pdf">using-final-with-inheritance.pdf</a></li>
+                  <li><a href="notes/sem3/java/CollectionFramework.pdf">CollectionFramework.pdf</a></li>
+                  <li><a href="notes/sem3/java/Exception Handling.pdf">Exception Handling.pdf</a></li>
+                  <li><a href="notes/sem3/java/File Handling.pdf">File Handling.pdf</a></li>
+                  <li><a href="notes/sem3/java/Final & Finalize.pdf">Final & Finalize.pdf</a></li>
+                  <li><a href="notes/sem3/java/garbage-collection.pdf">garbage-collection.pdf</a></li>
+                  <li><a href="notes/sem3/java/Interface.pdf">Interface.pdf</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li>
+            <input id="group-4" type="checkbox" hidden />
+            <label for="group-4"><span class="fa fa-angle-right"></span> SEM-4</label>
+            <ul class=group-list>
+              <li>
+                <input id="sub-group-13" type="checkbox" hidden />
+                <label for="sub-group-13"><span class="fa fa-angle-right"></span>DATA STRUCTURE AND ALGORITHM</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-14" type="checkbox" hidden />
+                <label for="sub-group-14"><span class="fa fa-angle-right"></span> DATABASE AND MANAGEMENT SYSTEM</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-15" type="checkbox" hidden />
+                <label for="sub-group-15"><span class="fa fa-angle-right"></span> MICROPROCCESOR AND COMPUTER ORGANIZATION</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+              <li>
+                <input id="sub-group-16" type="checkbox" hidden />
+                <label for="sub-group-16"><span class="fa fa-angle-right"></span> PROGRAMMING IN PYTHON</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-5" type="checkbox" hidden />
+            <label for="group-5"><span class="fa fa-angle-right"></span> SEM-5</label>
+            <ul class=group-list>
+              <li>
+                <li><a href="#">1st level item</a></li>
+                <input id="sub-group-5" type="checkbox" hidden />
+                <label for="sub-group-5"><span class="fa fa-angle-right"></span> Second level</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-6" type="checkbox" hidden />
+            <label for="group-6"><span class="fa fa-angle-right"></span> SEM-6</label>
+            <ul class=group-list>
+              <li>
+                <li><a href="#">1st level item</a></li>
+                <input id="sub-group-6" type="checkbox" hidden />
+                <label for="sub-group-6"><span class="fa fa-angle-right"></span> Second level</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-7" type="checkbox" hidden />
+            <label for="group-7"><span class="fa fa-angle-right"></span> SEM-7</label>
+            <ul class=group-list>
+              <li>
+                <li><a href="#">1st level item</a></li>
+                <input id="sub-group-7" type="checkbox" hidden />
+                <label for="sub-group-7"><span class="fa fa-angle-right"></span> Second level</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <input id="group-8" type="checkbox" hidden />
+            <label for="group-8"><span class="fa fa-angle-right"></span> SEM-8</label>
+            <ul class=group-list>
+              <li>
+                <li><a href="#">1st level item</a></li>
+                <input id="sub-group-8" type="checkbox" hidden />
+                <label for="sub-group-8"><span class="fa fa-angle-right"></span> Second level</label>
+                <ul class="sub-group-list">
+                  <li><a href="#">2nd level nav item</a></li>
+                  <li><a href="#">2nd level nav item</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+      </nav>
+          
+    </header>
+
+ 
+      <div class="container" id="ff-compose"></div>     
+     
+  
+   <br><br><br><br><br><br>
+</section>
+
+<script> 
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginright = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+</script>
+
+<script type="text/javascript">
+    $(function(){
+        $("#accordion").accordion({ header: "h2", navigation: true });
+     });
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="                           sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="app.js"></script>
+    <script >
+      $(document).click(function() {
+      var container = $("#container");
+      if (!container.is(event.target) && !container.has(event.target).length) {
+        container.hide();
+       }
+    });
+
+    </script>
+    
+</body>
+</html>
